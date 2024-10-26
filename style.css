@@ -1,0 +1,60 @@
+/* Todo Style */
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: 250vh 100vh;
+}
+.container{
+    width: 70%;
+    height: 70vh;
+    background-color: #3A6D8C;
+    margin:  5% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+ input {
+    width: 55%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+   margin: 1rem;
+}
+.enter-button{
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+  
+    background-color: #001F3F;
+    color: white;
+}
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.todo{
+background-color: #EAD8B1;
+width: 12rem;
+height: 2.5rem;
+border-radius: 0.5rem;
+padding: 0.3rem;
+margin-bottom: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.delete-button{
+    border: none;
+    background-color:inherit;
+}
